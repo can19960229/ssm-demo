@@ -11,18 +11,6 @@
       <change afterPath="$PROJECT_DIR$/src/main/resources/数据库的表结构介绍/2.7.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/数据库的表结构介绍/2.8.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/数据库的表结构介绍/首页显示.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/pages/role-permission-add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/pages/user-role-add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_dao/src/main/java/candy/ssm/dao/IRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_dao/src/main/java/candy/ssm/dao/IRoleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_dao/src/main/java/candy/ssm/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_dao/src/main/java/candy/ssm/dao/IUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_service/src/main/java/candy/ssm/service/IRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_service/src/main/java/candy/ssm/service/IRoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_service/src/main/java/candy/ssm/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_service/src/main/java/candy/ssm/service/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_service/src/main/java/candy/ssm/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_service/src/main/java/candy/ssm/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_service/src/main/java/candy/ssm/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_service/src/main/java/candy/ssm/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_web/src/main/java/candy/ssm/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_web/src/main/java/candy/ssm/controller/RoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_web/src/main/java/candy/ssm/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_web/src/main/java/candy/ssm/controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +144,7 @@
       <workItem from="1607997781001" duration="21679000" />
       <workItem from="1608084079427" duration="208000" />
       <workItem from="1608084324753" duration="52973000" />
-      <workItem from="1608537423733" duration="24054000" />
+      <workItem from="1608537423733" duration="24360000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1608605680703</created>
@@ -172,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608619510695</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加用户关联角色，角色关联权限操作">
+      <created>1608624272388</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608624272388</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +176,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试" />
     <MESSAGE value="系统首页图" />
-    <option name="LAST_COMMIT_MESSAGE" value="系统首页图" />
+    <MESSAGE value="添加用户关联角色，角色关联权限操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加用户关联角色，角色关联权限操作" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="197" key="#Deployment" timestamp="1608605476205">
@@ -204,10 +200,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="285" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608104037719" />
-    <state x="254" y="25" width="1423" height="1012" key="CommitChangelistDialog2" timestamp="1608624182836">
+    <state x="254" y="25" width="1423" height="1012" key="CommitChangelistDialog2" timestamp="1608624270798">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="254" y="25" width="1423" height="1012" key="CommitChangelistDialog2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608624182836" />
+    <state x="254" y="25" width="1423" height="1012" key="CommitChangelistDialog2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608624270798" />
     <state x="184" y="89" key="DiffContextDialog" timestamp="1608605456800">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -216,22 +212,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="672" y="279" key="FileChooserDialogImpl/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608084836751" />
-    <state width="1875" height="195" key="GridCell.Tab.0.bottom" timestamp="1608624183895">
+    <state width="1875" height="195" key="GridCell.Tab.0.bottom" timestamp="1608624275657">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="195" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608624183895" />
-    <state width="1875" height="195" key="GridCell.Tab.0.center" timestamp="1608624183895">
+    <state width="1875" height="195" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608624275657" />
+    <state width="1875" height="195" key="GridCell.Tab.0.center" timestamp="1608624275656">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="195" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608624183895" />
-    <state width="1875" height="195" key="GridCell.Tab.0.left" timestamp="1608624183895">
+    <state width="1875" height="195" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608624275656" />
+    <state width="1875" height="195" key="GridCell.Tab.0.left" timestamp="1608624275656">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="195" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608624183895" />
-    <state width="1875" height="195" key="GridCell.Tab.0.right" timestamp="1608624183895">
+    <state width="1875" height="195" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608624275656" />
+    <state width="1875" height="195" key="GridCell.Tab.0.right" timestamp="1608624275656">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="195" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608624183895" />
+    <state width="1875" height="195" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608624275656" />
     <state width="1875" height="358" key="GridCell.Tab.1.bottom" timestamp="1608089167601">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
