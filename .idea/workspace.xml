@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59c5e94c-ad46-46bc-97fc-533b1e6e34eb" name="Default Changelist" comment="" />
+    <list default="true" id="59c5e94c-ad46-46bc-97fc-533b1e6e34eb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +34,14 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="yours-candy" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1lfp0ceXLvUtbsyLH4Av9z4vqcB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -125,7 +134,7 @@
       <workItem from="1607997781001" duration="21679000" />
       <workItem from="1608084079427" duration="208000" />
       <workItem from="1608084324753" duration="52973000" />
-      <workItem from="1608537423733" duration="16872000" />
+      <workItem from="1608537423733" duration="18021000" />
     </task>
     <servers />
   </component>
@@ -133,6 +142,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="197" key="#Deployment" timestamp="1608605476205">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="197" key="#Deployment/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608605476205" />
     <state x="359" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608001766917">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -149,26 +162,34 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="285" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608104037719" />
+    <state x="560" y="133" width="800" height="813" key="CommitChangelistDialog2" timestamp="1608605669837">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="133" width="800" height="813" key="CommitChangelistDialog2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608605669837" />
+    <state x="184" y="89" key="DiffContextDialog" timestamp="1608605456800">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="184" y="89" key="DiffContextDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608605456800" />
     <state x="672" y="279" key="FileChooserDialogImpl" timestamp="1608084836751">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="672" y="279" key="FileChooserDialogImpl/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608084836751" />
-    <state width="1875" height="195" key="GridCell.Tab.0.bottom" timestamp="1608603571613">
+    <state width="1875" height="195" key="GridCell.Tab.0.bottom" timestamp="1608605390098">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="195" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608603571613" />
-    <state width="1875" height="195" key="GridCell.Tab.0.center" timestamp="1608603571613">
+    <state width="1875" height="195" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608605390098" />
+    <state width="1875" height="195" key="GridCell.Tab.0.center" timestamp="1608605390098">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="195" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608603571613" />
-    <state width="1875" height="195" key="GridCell.Tab.0.left" timestamp="1608603571612">
+    <state width="1875" height="195" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608605390098" />
+    <state width="1875" height="195" key="GridCell.Tab.0.left" timestamp="1608605390097">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="195" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608603571612" />
-    <state width="1875" height="195" key="GridCell.Tab.0.right" timestamp="1608603571613">
+    <state width="1875" height="195" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608605390097" />
+    <state width="1875" height="195" key="GridCell.Tab.0.right" timestamp="1608605390098">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="195" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608603571613" />
+    <state width="1875" height="195" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608605390098" />
     <state width="1875" height="358" key="GridCell.Tab.1.bottom" timestamp="1608089167601">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -189,6 +210,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="422" y="179" key="Maven.ArtifactSearchDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608016886639" />
+    <state x="722" y="249" key="RollbackChangesDialog" timestamp="1608605453983">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="722" y="249" key="RollbackChangesDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608605453983" />
     <state x="423" y="116" key="SettingsEditor" timestamp="1608085988783">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -201,6 +226,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="640" y="363" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608084134480" />
+    <state x="752" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608605611443">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="752" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608605611443" />
     <state x="636" y="136" width="647" height="807" key="find.popup" timestamp="1608542070650">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
