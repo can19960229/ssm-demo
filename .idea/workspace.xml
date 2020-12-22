@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59c5e94c-ad46-46bc-97fc-533b1e6e34eb" name="Default Changelist" comment="" />
+    <list default="true" id="59c5e94c-ad46-46bc-97fc-533b1e6e34eb" name="Default Changelist" comment="测试">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/数据库的表结构介绍/2.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/数据库的表结构介绍/2.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/数据库的表结构介绍/2.3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/数据库的表结构介绍/2.4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/数据库的表结构介绍/2.5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/数据库的表结构介绍/2.6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/数据库的表结构介绍/2.7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/数据库的表结构介绍/2.8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/数据库的表结构介绍/首页显示.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/pages/role-permission-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/pages/user-role-add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_dao/src/main/java/candy/ssm/dao/IRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_dao/src/main/java/candy/ssm/dao/IRoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_dao/src/main/java/candy/ssm/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_dao/src/main/java/candy/ssm/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_service/src/main/java/candy/ssm/service/IRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_service/src/main/java/candy/ssm/service/IRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_service/src/main/java/candy/ssm/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_service/src/main/java/candy/ssm/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_service/src/main/java/candy/ssm/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_service/src/main/java/candy/ssm/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_service/src/main/java/candy/ssm/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_service/src/main/java/candy/ssm/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_web/src/main/java/candy/ssm/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_web/src/main/java/candy/ssm/controller/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_web/src/main/java/candy/ssm/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_web/src/main/java/candy/ssm/controller/UserController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +64,9 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1lfp0ceXLvUtbsyLH4Av9z4vqcB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -132,7 +156,7 @@
       <workItem from="1607997781001" duration="21679000" />
       <workItem from="1608084079427" duration="208000" />
       <workItem from="1608084324753" duration="52973000" />
-      <workItem from="1608537423733" duration="18350000" />
+      <workItem from="1608537423733" duration="24054000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1608605680703</created>
@@ -141,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608605680704</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="系统首页图">
+      <created>1608619510695</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608619510695</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +180,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试" />
+    <MESSAGE value="系统首页图" />
+    <option name="LAST_COMMIT_MESSAGE" value="系统首页图" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="197" key="#Deployment" timestamp="1608605476205">
@@ -164,18 +196,18 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="704" y="461" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608084016534" />
-    <state x="933" y="195" key="#com.intellij.ide.util.MemberChooser" timestamp="1608557423418">
+    <state x="933" y="195" key="#com.intellij.ide.util.MemberChooser" timestamp="1608622796555">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="933" y="195" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608557423418" />
+    <state x="933" y="195" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608622796555" />
     <state x="690" y="285" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608104037719">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="285" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608104037719" />
-    <state x="560" y="133" width="800" height="813" key="CommitChangelistDialog2" timestamp="1608605679907">
+    <state x="254" y="25" width="1423" height="1012" key="CommitChangelistDialog2" timestamp="1608624182836">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="560" y="133" width="800" height="813" key="CommitChangelistDialog2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608605679907" />
+    <state x="254" y="25" width="1423" height="1012" key="CommitChangelistDialog2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608624182836" />
     <state x="184" y="89" key="DiffContextDialog" timestamp="1608605456800">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -184,22 +216,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="672" y="279" key="FileChooserDialogImpl/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608084836751" />
-    <state width="1875" height="195" key="GridCell.Tab.0.bottom" timestamp="1608605390098">
+    <state width="1875" height="195" key="GridCell.Tab.0.bottom" timestamp="1608624183895">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="195" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608605390098" />
-    <state width="1875" height="195" key="GridCell.Tab.0.center" timestamp="1608605390098">
+    <state width="1875" height="195" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608624183895" />
+    <state width="1875" height="195" key="GridCell.Tab.0.center" timestamp="1608624183895">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="195" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608605390098" />
-    <state width="1875" height="195" key="GridCell.Tab.0.left" timestamp="1608605390097">
+    <state width="1875" height="195" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608624183895" />
+    <state width="1875" height="195" key="GridCell.Tab.0.left" timestamp="1608624183895">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="195" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608605390097" />
-    <state width="1875" height="195" key="GridCell.Tab.0.right" timestamp="1608605390098">
+    <state width="1875" height="195" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608624183895" />
+    <state width="1875" height="195" key="GridCell.Tab.0.right" timestamp="1608624183895">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="195" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608605390098" />
+    <state width="1875" height="195" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608624183895" />
     <state width="1875" height="358" key="GridCell.Tab.1.bottom" timestamp="1608089167601">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -232,14 +264,18 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608010312648" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1608619518631">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608619518631" />
     <state x="640" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1608084134480">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="640" y="363" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608084134480" />
-    <state x="752" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608605691353">
+    <state x="752" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608624147591">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="752" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608605691353" />
+    <state x="752" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608624147591" />
     <state x="636" y="136" width="647" height="807" key="find.popup" timestamp="1608542070650">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -248,9 +284,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="403" y="239" key="new project wizard/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1607997941632" />
-    <state x="568" y="219" width="672" height="678" key="search.everywhere.popup" timestamp="1608010320622">
+    <state x="568" y="219" width="672" height="678" key="search.everywhere.popup" timestamp="1608623135121">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="568" y="219" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608010320622" />
+    <state x="568" y="219" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608623135121" />
   </component>
 </project>

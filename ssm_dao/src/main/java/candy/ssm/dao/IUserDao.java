@@ -6,6 +6,7 @@ package candy.ssm.dao;/**
  * Description: 测试
  */
 
+import candy.ssm.domain.Role;
 import candy.ssm.domain.UserInfo;
 import org.apache.ibatis.annotations.*;
 
@@ -52,6 +53,13 @@ public interface IUserDao {
             @Result(property = "roles",column = "id",javaType = java.util.List.class,many = @Many(select = "candy.ssm.dao.IRoleDao.findRoleByUserId"))
     })
     UserInfo findById(String id) throws Exception;
+
+    //根据userid去中间表查询，把当前没有关联的userid查出来的角色id去角色表中查询
+    @Select("select * from role where id not in (select roleId from users_role where userId = #{userId})")
+    List<Role> findOtherRoles(String userid);
+
+    @Insert("insert into users_role(userId,roleId) values(#{userId},#{roleId})")
+    void addRoleToUser(@Param("userId") String userId, @Param("roleId") String roleId);
 }
 
 

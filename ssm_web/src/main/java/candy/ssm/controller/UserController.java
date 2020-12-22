@@ -6,12 +6,14 @@ package candy.ssm.controller;/**
  * Description: 测试
  */
 
+import candy.ssm.domain.Role;
 import candy.ssm.domain.UserInfo;
 import candy.ssm.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
@@ -53,5 +55,33 @@ public class UserController {
         mv.addObject("user",userInfo);
         mv.setViewName("user-show");
         return mv;
+    }
+    //查询用户以及用户可以添加的角色
+    @RequestMapping("/findUserByIdAndAllRole.do")
+    public ModelAndView findUserByIdAndAllRole(@RequestParam(name = "id",required = true) String userid) throws Exception {
+        ModelAndView mv = new ModelAndView();
+        //1.根据用户id查询用户
+        UserInfo userInfo = userService.findById(userid);
+        //2.根据用户id查询可以添加的角色
+        List<Role> otherRoles = userService.findOtherRoles(userid);
+
+        mv.addObject("user",userInfo);
+        mv.addObject("roleList",otherRoles);
+        mv.setViewName("user-role-add");
+        return mv;
+    }
+
+
+
+    /**
+     * 给用户添加角色
+     * @param userId 用户id
+     * @param roleIds 可以添加的角色id
+     */
+    @RequestMapping("/addRoleToUser.do")
+    public String addRoleToUser(@RequestParam(name = "userId",required = true) String userId,@RequestParam(name = "ids",required = true) String[] roleIds) throws Exception {
+        userService.addRoleToUser(userId,roleIds);
+
+        return "redirect:findAll.do";
     }
 }

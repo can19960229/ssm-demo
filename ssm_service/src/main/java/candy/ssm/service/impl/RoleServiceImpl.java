@@ -7,6 +7,7 @@ package candy.ssm.service.impl;/**
  */
 
 import candy.ssm.dao.IRoleDao;
+import candy.ssm.domain.Permission;
 import candy.ssm.domain.Role;
 import candy.ssm.service.IRoleService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,10 +37,7 @@ public class RoleServiceImpl implements IRoleService {
         roleDao.save(role);
     }
 
-    @Override
-    public Role findById(String roleId) throws Exception{
-        return roleDao.findById(roleId);
-    }
+
 
     @Override
     public void addPermissionToRole(String roleId, String[] permissionIds) throws Exception{
@@ -57,5 +55,15 @@ public class RoleServiceImpl implements IRoleService {
         roleDao.deleteFromRole_PermissionByRoleId(roleId);
         //从role表中删除
         roleDao.deleteRoleById(roleId);
+    }
+
+    @Override
+    public Role findById(String roleId) throws Exception{
+        return roleDao.findById(roleId);
+    }
+
+    @Override
+    public List<Permission> findOtherPermissions(String roleId) throws Exception {
+        return roleDao.findOtherPermissions(roleId);
     }
 }

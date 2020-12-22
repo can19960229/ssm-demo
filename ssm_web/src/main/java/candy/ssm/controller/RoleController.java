@@ -6,6 +6,7 @@ package candy.ssm.controller;/**
  * Description: 测试
  */
 
+import candy.ssm.domain.Permission;
 import candy.ssm.domain.Role;
 import candy.ssm.service.IRoleService;
 import com.sun.org.apache.xpath.internal.operations.Mod;
@@ -62,9 +63,26 @@ public class RoleController {
         mv.setViewName("role-show");
         return mv;
     }
+
+
+    //根据roleId查询role，并查询出可以添加的权限
+    @RequestMapping("/findRoleByIdAndAllPermission.do")
+    public ModelAndView findRoleByIdAndAllPermission(@RequestParam(name = "id",required = true) String roleId) throws Exception {
+        ModelAndView mv = new ModelAndView();
+        //根据roleId查询role
+        Role role = roleService.findById(roleId);
+        //根据roleId查询可以添加的权限
+        List<Permission> otherPermissions = roleService.findOtherPermissions(roleId);
+        mv.addObject("role",role);
+        mv.addObject("permissionList",otherPermissions);
+        mv.setViewName("role-permission-add");
+
+        return mv;
+    }
+
     //给角色添加权限
     @RequestMapping("/addPermissionToRole.do")
-    public String addPermissionToRole(@RequestParam(name = "roleId",required = true) String roleId,@RequestParam(name = "ids",required = true) String[] permissionIds) throws Exception{
+    public String addPermissionToRole(@RequestParam(name = "roleId",required = true) String roleId , @RequestParam(name = "ids",required = true) String[] permissionIds) throws Exception {
         roleService.addPermissionToRole(roleId,permissionIds);
         return "redirect:findAll.do";
     }
