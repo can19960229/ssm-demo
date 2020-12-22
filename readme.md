@@ -2,7 +2,7 @@
 
 使用mysql数据库 + SSM框架 搭建的简易版企业权限管理系统，实现用户角色、用户权限、产品管理等功能。
 
-![首页展示](D:\chencan\java\java_workplace\ssm_demo\src\main\resources\首页显示.png)
+![首页展示](https://github.com/yours-candy/ssm-demo/blob/1f66b824352327123c635aae81068e4b5496c4cd/img/首页显示.png)
 
 ## 1.功能介绍  
 
@@ -60,32 +60,32 @@ AOP日志处理，我们使用spring AOP切面来完成系统级别的日志收�
 
 ## 2.1 产品表  
 
-![产品表](D:\chencan\java\java_workplace\ssm_demo\src\main\resources\数据库的表结构介绍\2.1.png)
+![产品表](https://github.com/yours-candy/ssm-demo/blob/1f66b824352327123c635aae81068e4b5496c4cd/img/2.1.png)
 
 ## 2.2 订单表
 
-![订单表](D:\chencan\java\java_workplace\ssm_demo\src\main\resources\数据库的表结构介绍\2.2.png)
+![订单表](https://github.com/yours-candy/ssm-demo/blob/1f66b824352327123c635aae81068e4b5496c4cd/img/2.2.png)
 
 ## 2.3 会员表
 
-![会员表](D:\chencan\java\java_workplace\ssm_demo\src\main\resources\数据库的表结构介绍\2.3.png)
+![会员表](https://github.com/yours-candy/ssm-demo/blob/1f66b824352327123c635aae81068e4b5496c4cd/img/2.3.png)
 
 ## 2.4 旅客表
 
-![旅客表](D:\chencan\java\java_workplace\ssm_demo\src\main\resources\数据库的表结构介绍\2.4.png)
+![旅客表](https://github.com/yours-candy/ssm-demo/blob/1f66b824352327123c635aae81068e4b5496c4cd/img/2.4.png)
 
 ## 2.5 用户表
 
-![用户表](D:\chencan\java\java_workplace\ssm_demo\src\main\resources\数据库的表结构介绍\2.5.png)
+![用户表](https://github.com/yours-candy/ssm-demo/blob/1f66b824352327123c635aae81068e4b5496c4cd/img/2.5.png)
 
 ## 2.6 角色表
 
-![角色表](D:\chencan\java\java_workplace\ssm_demo\src\main\resources\数据库的表结构介绍\2.6.png)
+![角色表](https://github.com/yours-candy/ssm-demo/blob/1f66b824352327123c635aae81068e4b5496c4cd/img/2.6.png)
 
 ## 2.7 资源权限表
 
-![资源权限表](D:\chencan\java\java_workplace\ssm_demo\src\main\resources\数据库的表结构介绍\2.7.png)
+![资源权限表](https://github.com/yours-candy/ssm-demo/blob/1f66b824352327123c635aae81068e4b5496c4cd/img/2.7.png)
 
 ## 2.8 日志表
 
-![日志表](D:\chencan\java\java_workplace\ssm_demo\src\main\resources\数据库的表结构介绍\2.8.png)
+![日志表](https://github.com/yours-candy/ssm-demo/blob/1f66b824352327123c635aae81068e4b5496c4cd/img/2.8.png)
