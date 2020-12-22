@@ -1,0 +1,13 @@
+127.0.0.1 - - [21/Dec/2020:21:49:56 +0800] "GET /ssm_web HTTP/1.1" 302 - http-bio-8888-exec-1 0
+127.0.0.1 - - [21/Dec/2020:21:49:56 +0800] "GET /ssm_web/ HTTP/1.1" 302 - http-bio-8888-exec-2 50
+127.0.0.1 - - [21/Dec/2020:21:49:57 +0800] "GET /ssm_web/login.jsp HTTP/1.1" 200 2579 http-bio-8888-exec-3 554
+127.0.0.1 - - [21/Dec/2020:21:50:01 +0800] "POST /ssm_web/login.do HTTP/1.1" 200 12754 http-bio-8888-exec-5 757
+127.0.0.1 - - [21/Dec/2020:21:50:03 +0800] "GET /ssm_web/role/findAll.do HTTP/1.1" 200 16825 http-bio-8888-exec-6 292
+127.0.0.1 - - [21/Dec/2020:21:50:04 +0800] "GET /ssm_web/role/findById.do?id=85e7cc04406a11eb97f500ff0059058e HTTP/1.1" 500 33938 http-bio-8888-exec-7 38
+127.0.0.1 - - [21/Dec/2020:21:50:06 +0800] "GET /ssm_web/role/findAll.do HTTP/1.1" 200 16825 http-bio-8888-exec-4 13
+127.0.0.1 - - [21/Dec/2020:21:50:10 +0800] "GET /ssm_web/pages/role-add.jsp HTTP/1.1" 200 12049 http-bio-8888-exec-8 102
+127.0.0.1 - - [21/Dec/2020:21:50:12 +0800] "POST /ssm_web/role/save.do HTTP/1.1" 302 - http-bio-8888-exec-9 54
+127.0.0.1 - - [21/Dec/2020:21:50:12 +0800] "GET /ssm_web/role/findAll.do HTTP/1.1" 200 17509 http-bio-8888-exec-10 13
+127.0.0.1 - - [21/Dec/2020:21:50:13 +0800] "GET /ssm_web/role/deleteRole.do?id=6fc94d61439311ebaed300ff0059058e HTTP/1.1" 302 - http-bio-8888-exec-10 12
+127.0.0.1 - - [21/Dec/2020:21:50:13 +0800] "GET /ssm_web/role/findAll.do HTTP/1.1" 200 16825 http-bio-8888-exec-10 13
+127.0.0.1 - - [21/Dec/2020:21:50:17 +0800] "GET /ssm_web/role/findById.do?id=85e7cc04406a11eb97f500ff0059058e HTTP/1.1" 500 33938 http-bio-8888-exec-10 24

@@ -1,0 +1,7 @@
+candy\ssm\dao\IMemberDao.class
+candy\ssm\dao\ITravellerDao.class
+candy\ssm\dao\IUserDao.class
+candy\ssm\dao\IOrdersDao.class
+candy\ssm\dao\IProductDao.class
+candy\ssm\dao\IPermissionDao.class
+candy\ssm\dao\IRoleDao.class
