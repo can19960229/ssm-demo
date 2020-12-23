@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59c5e94c-ad46-46bc-97fc-533b1e6e34eb" name="Default Changelist" comment="1.0">
-      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/403.jsp" afterDir="false" />
+    <list default="true" id="59c5e94c-ad46-46bc-97fc-533b1e6e34eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ssm_dao/src/main/java/candy/ssm/dao/ISysLogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/src/main/java/candy/ssm/domain/SysLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/src/main/java/candy/ssm/service/ISysLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/src/main/java/candy/ssm/service/impl/SysLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/java/candy/ssm/controller/LogAop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/java/candy/ssm/controller/SysLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/pages/syslog-list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_web/src/main/java/candy/ssm/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_web/src/main/java/candy/ssm/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_web/src/main/resources/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_web/src/main/resources/spring-security.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_web/src/main/webapp/pages/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/pages/aside.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_web/src/main/webapp/pages/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/pages/header.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +34,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -166,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608624272388</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1.0">
+      <created>1608694950581</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608694950581</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +234,8 @@
     <MESSAGE value="测试" />
     <MESSAGE value="系统首页图" />
     <MESSAGE value="添加用户关联角色，角色关联权限操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加用户关联角色，角色关联权限操作" />
+    <MESSAGE value="1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="197" key="#Deployment" timestamp="1608605476205">
@@ -242,18 +250,18 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="704" y="461" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608084016534" />
-    <state x="933" y="195" key="#com.intellij.ide.util.MemberChooser" timestamp="1608622796555">
+    <state x="933" y="195" key="#com.intellij.ide.util.MemberChooser" timestamp="1608711195492">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="933" y="195" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608622796555" />
+    <state x="933" y="195" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608711195492" />
     <state x="690" y="285" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608104037719">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="285" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608104037719" />
-    <state x="254" y="25" width="1423" height="1012" key="CommitChangelistDialog2" timestamp="1608624345399">
+    <state x="254" y="25" width="1423" height="1012" key="CommitChangelistDialog2" timestamp="1608712590257">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="254" y="25" width="1423" height="1012" key="CommitChangelistDialog2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608624345399" />
+    <state x="254" y="25" width="1423" height="1012" key="CommitChangelistDialog2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608712590257" />
     <state x="184" y="89" key="DiffContextDialog" timestamp="1608605456800">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -262,22 +270,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="672" y="279" key="FileChooserDialogImpl/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608084836751" />
-    <state width="1875" height="168" key="GridCell.Tab.0.bottom" timestamp="1608694910321">
+    <state width="1875" height="431" key="GridCell.Tab.0.bottom" timestamp="1608712591376">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="168" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608694910321" />
-    <state width="1875" height="168" key="GridCell.Tab.0.center" timestamp="1608694910321">
+    <state width="1875" height="431" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608712591376" />
+    <state width="1875" height="431" key="GridCell.Tab.0.center" timestamp="1608712591376">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="168" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608694910321" />
-    <state width="1875" height="168" key="GridCell.Tab.0.left" timestamp="1608694910320">
+    <state width="1875" height="431" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608712591376" />
+    <state width="1875" height="431" key="GridCell.Tab.0.left" timestamp="1608712591376">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="168" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608694910320" />
-    <state width="1875" height="168" key="GridCell.Tab.0.right" timestamp="1608694910321">
+    <state width="1875" height="431" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608712591376" />
+    <state width="1875" height="431" key="GridCell.Tab.0.right" timestamp="1608712591376">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="168" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608694910321" />
+    <state width="1875" height="431" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608712591376" />
     <state width="1875" height="358" key="GridCell.Tab.1.bottom" timestamp="1608089167601">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
