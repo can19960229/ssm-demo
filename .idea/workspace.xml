@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59c5e94c-ad46-46bc-97fc-533b1e6e34eb" name="Default Changelist" comment="测试">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/数据库的表结构介绍/2.1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/数据库的表结构介绍/2.2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/数据库的表结构介绍/2.3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/数据库的表结构介绍/2.4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/数据库的表结构介绍/2.5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/数据库的表结构介绍/2.6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/数据库的表结构介绍/2.7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/数据库的表结构介绍/2.8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/数据库的表结构介绍/首页显示.png" afterDir="false" />
+    <list default="true" id="59c5e94c-ad46-46bc-97fc-533b1e6e34eb" name="Default Changelist" comment="1.0">
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/403.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_web/src/main/java/candy/ssm/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_web/src/main/java/candy/ssm/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_web/src/main/resources/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_web/src/main/resources/spring-security.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_web/src/main/webapp/pages/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/pages/aside.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_web/src/main/webapp/pages/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/pages/header.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +34,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -173,6 +172,57 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试" />
     <MESSAGE value="系统首页图" />
@@ -212,22 +262,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="672" y="279" key="FileChooserDialogImpl/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608084836751" />
-    <state width="1875" height="195" key="GridCell.Tab.0.bottom" timestamp="1608624275657">
+    <state width="1875" height="168" key="GridCell.Tab.0.bottom" timestamp="1608694910321">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="195" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608624275657" />
-    <state width="1875" height="195" key="GridCell.Tab.0.center" timestamp="1608624275656">
+    <state width="1875" height="168" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608694910321" />
+    <state width="1875" height="168" key="GridCell.Tab.0.center" timestamp="1608694910321">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="195" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608624275656" />
-    <state width="1875" height="195" key="GridCell.Tab.0.left" timestamp="1608624275656">
+    <state width="1875" height="168" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608694910321" />
+    <state width="1875" height="168" key="GridCell.Tab.0.left" timestamp="1608694910320">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="195" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608624275656" />
-    <state width="1875" height="195" key="GridCell.Tab.0.right" timestamp="1608624275656">
+    <state width="1875" height="168" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608694910320" />
+    <state width="1875" height="168" key="GridCell.Tab.0.right" timestamp="1608694910321">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="195" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608624275656" />
+    <state width="1875" height="168" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1608694910321" />
     <state width="1875" height="358" key="GridCell.Tab.1.bottom" timestamp="1608089167601">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
